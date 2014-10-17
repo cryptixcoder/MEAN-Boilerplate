@@ -1,0 +1,36 @@
+{
+  "name": "mean-boilerplate",
+  "version": "0.0.1",
+  "description": "Mean Boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cryptixcoder/MEAN-Boilerplate.git"
+  },
+  "author": "Markus Gray @cryptixcoder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cryptixcoder/MEAN-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/cryptixcoder/MEAN-Boilerplate",
+  "devDependencies": {
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-nodemon": "^0.3.0"
+  },
+  "dependencies": {
+    "crypto": "0.0.3",
+    "cookie-parser": "^1.3.3",
+    "express-session": "^1.9.0",
+    "express": "^4.9.7",
+    "body-parser": "^1.9.0",
+    "mongoose": "^3.8.17"
+  }
+}
