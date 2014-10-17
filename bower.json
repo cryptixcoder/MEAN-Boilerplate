@@ -21,6 +21,8 @@
     "angular-resource": "~1.3.0",
     "angular-ui-router": "~0.2.11",
     "angular-cookies": "~1.3.0",
-    "angular-route": "~1.3.0"
+    "angular-route": "~1.3.0",
+    "ngUpload": "~0.5.11",
+    "aws-sdk": "~2.0.21"
   }
 }

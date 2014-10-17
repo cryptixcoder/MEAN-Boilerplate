@@ -6,10 +6,28 @@ module.exports = function(grunt){
 			}
 		},
 		uglify: {
-
+			build: {
+				files: {
+					'public/assets/js/app.min.js' : []
+				}
+			}
 		},
 		cssmin: {
-
+			build: {
+				files: {
+					'public/assets/css/styles.min.css' : []
+				}
+			}
+		},
+		watch: {
+			css: {
+				files: [],
+				tasks: ['cssmin']
+			},
+			js: {
+				files:[],
+				tasks: ['uglify']
+			}
 		},
 		concurrent:{
 			options: {
